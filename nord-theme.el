@@ -170,7 +170,7 @@
         `(js2-jsdoc-html-tag-delimiter ((,class (:foreground ,str))))
         `(js2-jsdoc-html-tag-name ((,class (:foreground ,var))))
         `(js2-external-variable ((,class (:foreground ,type  ))))
-        `(js2-function-param ((,class (:foreground ,const))))
+        `(js2-function-param ((,class (:foreground ,fg1))))
         `(js2-jsdoc-value ((,class (:foreground ,str))))
         `(js2-private-member ((,class (:foreground ,fg3))))
         `(js3-warning-face ((,class (:underline ,keyword))))
