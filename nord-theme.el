@@ -3,7 +3,7 @@
 ;; Copyright (C) 2016 , bobbypriambodo
 
 ;; Author: bobbypriambodo
-;; Version: 0.1
+;; Version: 0.1.1
 ;; Package-Requires: ((emacs "24"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
 
