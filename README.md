@@ -19,24 +19,39 @@ As of now, here are the languages that I have tested this theme with:
 
 I can't seem to find a straightforward way to add local theme to Spacemacs. Here is the not-so-straightforward method:
 
-1. Clone this repo to, say, `~/Projects/nord-spacemacs`
+1. Create `~/.spacemacs.d` directory if not exist [(more info)](https://github.com/syl20bnr/spacemacs/blob/b7e51d70aa3fb81df2da6dc16d9652a002ba5e6b/doc/DOCUMENTATION.org#alternative-dotdirectory):
 
-2. Symlink the `nord-theme.el` to `~/.emacs.d`
-
+    ```bash
+    $ mkdir -p ~/.spacemacs.d/snippets
+    $ mv ~/.spacemacs ~/.spacemacs.d/init.el
     ```
-    $ cd ~/.emacs.d
+
+    (Note: We also create a `snippets` directory so that yasnippet wouldn't complain.)
+
+    Also add the following to your `dotspacemacs/user-init` so that we can load stuff from `.spacemacs.d`:
+
+    ```elisp
+    (add-to-load-path-if-exists "~/.spacemacs.d/")
+    ```
+
+2. Clone this repo to, say, `~/Projects/nord-spacemacs`
+
+3. Symlink the `nord-theme.el` to `~/.spacemacs.d`:
+
+    ```bash
+    $ cd ~/.spacemacs.d
     $ ln -s ~/Projects/nord-spacemacs/nord-theme.el nord-theme.el
     ```
 
-3. Add the `nord` theme to `dotspacemacs-themes`
+4. Add the `nord` theme to `dotspacemacs-themes`:
 
-    ```
+    ```elisp
     dotspacemacs-themes '(nord
                           spacemacs-dark
                           spacemacs-light)
     ```
 
-4. Restart your Spacemacs!
+5. Restart your Spacemacs!
 
 ## Screenshots
 
