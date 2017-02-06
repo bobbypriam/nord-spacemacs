@@ -279,7 +279,7 @@
         `(company-scrollbar-bg ((,class (:background ,bg3))))
         `(company-scrollbar-fg ((,class (:foreground ,keyword))))
         `(company-tooltip ((,class (:foreground ,fg2 :background ,bg1))))
-        `(company-tooltop-annotation ((,class (:foreground ,keyword))))
+        `(company-tooltip-annotation ((,class (:foreground ,keyword))))
         `(company-tooltip-common ((,class ( :foreground ,fg3))))
         `(company-tooltip-common-selection ((,class (:foreground ,str))))
         `(company-tooltip-mouse ((,class (:inherit highlight))))
