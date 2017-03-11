@@ -17,6 +17,8 @@ As of now, here are the languages that I have tested this theme with:
 
 ## Usage
 
+**Update**: [@jonyamo](https://github.com/jonyamo) has noted another way to include a custom theme by using `~/emacs.d/private/themes` directory [in this issue](https://github.com/bobbypriambodo/nord-spacemacs/issues/1). It's a bit simpler than the approach below, so do check it out!
+
 I can't seem to find a straightforward way to add local theme to Spacemacs. Here is the not-so-straightforward method:
 
 1. Create `~/.spacemacs.d` directory if not exist [(more info)](https://github.com/syl20bnr/spacemacs/blob/b7e51d70aa3fb81df2da6dc16d9652a002ba5e6b/doc/DOCUMENTATION.org#alternative-dotdirectory):
