@@ -1,4 +1,6 @@
-# Nord theme for Spacemacs (Unofficial)
+# Nord theme for Spacemacs (Unofficial, deprecated)
+
+**DEPRECATED in favor of the awesome [nord-emacs official port](https://github.com/arcticicestudio/nord-emacs) by @arcticicestudio. This package would no longer be maintained.**
 
 This is an unofficial port of [Nord color palette](https://github.com/arcticicestudio/nord) for [Spacemacs](https://github.com/syl20bnr/spacemacs).
 
